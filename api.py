@@ -1,4 +1,5 @@
 # simple API that exports an Excel file
+# navigate to http://127.0.0.1:5000/report to download the Excel file.
 
 from flask import Flask, send_file
 import pandas as pd
@@ -17,3 +18,4 @@ def report():
 
 if __name__ == "__main__":
     app.run(debug=True)
+    
